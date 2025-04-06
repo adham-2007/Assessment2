@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element -->
+<FootballMatches>
+    
+    <!-- Match 1 -->
+    <FootballMatch>
+        <HomeTeam>Arsenal</HomeTeam>
+        <AwayTeam>Manchester United</AwayTeam>
+        <Date>2024-10-12</Date>
+        <GoalsHome>2</GoalsHome>
+        <GoalsAway>1</GoalsAway>
+    </FootballMatch>
+
+    <!-- Match 2 -->
+    <FootballMatch>
+        <HomeTeam>Chelsea</HomeTeam>
+        <AwayTeam>Liverpool</AwayTeam>
+        <Date>2024-10-15</Date>
+        <GoalsHome>1</GoalsHome>
+        <GoalsAway>3</GoalsAway>
+    </FootballMatch>
+
+    <!-- Match 3 -->
+    <FootballMatch>
+        <HomeTeam>Real Madrid</HomeTeam>
+        <AwayTeam>Barcelona</AwayTeam>
+        <Date>2024-11-01</Date>
+        <GoalsHome>0</GoalsHome>
+        <GoalsAway>2</GoalsAway>
+    </FootballMatch>
+
+    <!-- Match 4 with CDATA Description -->
+    <FootballMatch>
+        <HomeTeam>AC Milan</HomeTeam>
+        <AwayTeam>Inter Milan</AwayTeam>
+        <Date>2024-11-10</Date>
+        <GoalsHome>2</GoalsHome>
+        <GoalsAway>2</GoalsAway>
+        <Description><![CDATA[An intense derby match with lots of tackles and drama. Fans were thrilled!]]></Description>
+    </FootballMatch>
+
+    <!-- Match 5 -->
+    <FootballMatch>
+        <HomeTeam>Bayern Munich</HomeTeam>
+        <AwayTeam>Borussia Dortmund</AwayTeam>
+        <Date>2024-11-18</Date>
+        <GoalsHome>4</GoalsHome>
+        <GoalsAway>1</GoalsAway>
+    </FootballMatch>
+
+</FootballMatches>
